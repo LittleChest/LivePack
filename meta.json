@@ -1,0 +1,30 @@
+{
+    "schemaVersion": 1,
+    "hotfixesFormat": null,
+    "versions": [
+      {
+        "id": "3.0.0",
+        "releasedAt": 1704002400
+      },
+      {
+        "id": "3.1.0",
+        "releasedAt": 1704009600
+      },
+      {
+        "id": "3.1.1",
+        "releasedAt": 1704016800
+      },
+      {
+        "id": "3.1.2",
+        "releasedAt": 1704024000
+      },
+      {
+        "id": "3.1.3",
+        "releasedAt": 1704088800
+      },
+      {
+        "id": "3.1.4",
+        "releasedAt": 1704193200
+      }
+    ]
+}
