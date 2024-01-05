@@ -4,31 +4,31 @@
     "versions": [
       {
         "id": "3.0.0",
-        "releasedAt": 1704002400
+        "releasedAt": 1704002400000
       },
       {
         "id": "3.1.0",
-        "releasedAt": 1704009600
+        "releasedAt": 1704009600000
       },
       {
         "id": "3.1.1",
-        "releasedAt": 1704016800
+        "releasedAt": 1704016800000
       },
       {
         "id": "3.1.2",
-        "releasedAt": 1704024000
+        "releasedAt": 1704024000000
       },
       {
         "id": "3.1.3",
-        "releasedAt": 1704088800
+        "releasedAt": 1704088800000
       },
       {
         "id": "3.1.4",
-        "releasedAt": 1704193200
+        "releasedAt": 1704193200000
       },
       {
-        "id": "boombap",
-        "releasedAt": 1704193201
+        "id": "3.2",
+        "releasedAt": 1704394800000
       }
     ]
 }
