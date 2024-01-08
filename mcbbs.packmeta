@@ -2,9 +2,9 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 2,
   "name": "LivePack",
-  "version": "3.2.2",
+  "version": "3.2.3",
   "author": "LittleChest",
-  "description": "欢迎使用LivePack！",
+  "description": "感谢使用 LivePack！\n请注意：不是所有的模组都支持加载，有些时候需要一些技巧和手段...",
   "fileApi": "https://mclive.skinow.skin",
   "url": "https://github.com/LittleChest/LivePack",
   "forceUpdate": true,
@@ -35,7 +35,7 @@
     },
     {
       "path": "config/itlt-client.toml",
-      "hash": "ec8a1034c3c03435f10a18b603d23239aeadc63b",
+      "hash": "cfbccb2f0274f74a53130a922bc177f549a1b772",
       "force": true,
       "type": "addon"
     },
@@ -47,7 +47,7 @@
     },
     {
       "path": "config/modpack-update-checker/config.json",
-      "hash": "fb3c16e70d616ab241164f73ba2f77c4b1a4aed7",
+      "hash": "c2eaf072047e4eb5870899ad9df5cc5472361f17",
       "force": true,
       "type": "addon"
     },
@@ -58,8 +58,20 @@
       "type": "addon"
     },
     {
+      "path": "mods/Advancement Plaques.jar",
+      "hash": "cf95c38fd083e5c3012b733b247f400fafb66447",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "mods/Alternate Current.jar",
       "hash": "02def44a2c416459ee5daecbe1caa6d78571e205",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/AppleSkin.jar",
+      "hash": "81919356f84eab14258db98924b66c3c38e372b1",
       "force": true,
       "type": "addon"
     },
@@ -70,8 +82,14 @@
       "type": "addon"
     },
     {
+      "path": "mods/Auto Third Person.jar",
+      "hash": "0226ea563cd93e14b0628b3c5ad4e307e94b5636",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "mods/Better Advancements.jar",
-      "hash": "b6f42c2c8aa33b4bfda9d21e9474ee1fd8542ad7",
+      "hash": "84a6293b9b662c93aa30aa047436b6d8c19e5088",
       "force": true,
       "type": "addon"
     },
@@ -83,7 +101,7 @@
     },
     {
       "path": "mods/Better Recipe Book.jar",
-      "hash": "5bc771c03beadfcf4c03d6945e7517f107ad5fd3",
+      "hash": "211dff34a3d187332ac35a135446926d2e06bd53",
       "force": true,
       "type": "addon"
     },
@@ -107,7 +125,7 @@
     },
     {
       "path": "mods/Biomes O\u0027 Plenty.jar",
-      "hash": "15072eb39c35a3f845d4bb04690d4b7f1808a980",
+      "hash": "c10ccda2a31e7ea9dbcb1db9688ee3d66bee25c8",
       "force": true,
       "type": "addon"
     },
@@ -131,7 +149,7 @@
     },
     {
       "path": "mods/Connector Extras.jar",
-      "hash": "0d2faf5d5d099eb164b782c59a7370d2f134958d",
+      "hash": "8b1d1c4a2a0a50cdf788556e6fa4ee9c419a0d1a",
       "force": true,
       "type": "addon"
     },
@@ -161,7 +179,7 @@
     },
     {
       "path": "mods/Embeddium++.jar",
-      "hash": "e6c9a0264fe6e524da4147a13a31f37d59fcae77",
+      "hash": "a599be075a78e05216d9ff254b3574b996be6161",
       "force": true,
       "type": "addon"
     },
@@ -186,6 +204,12 @@
     {
       "path": "mods/fast-ip-ping.jar",
       "hash": "d2ae47cc0e30f9dd354de6af5db0a65401dab631",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/FastQuit.jar",
+      "hash": "68f080925502a49027e231c63d3b94128ed6499b",
       "force": true,
       "type": "addon"
     },
@@ -228,6 +252,12 @@
     {
       "path": "mods/GeckoLib.jar",
       "hash": "16e0db2c73c0365e33d21a62bc4d08d9e40518b2",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Iceberg.jar",
+      "hash": "1d1b54b5a5b03c37f89ee6505198b6f50b63e853",
       "force": true,
       "type": "addon"
     },
@@ -287,7 +317,7 @@
     },
     {
       "path": "mods/Memory Leak Fix.jar",
-      "hash": "36b7e4aaea3814fac6428a628d3e18988b24f250",
+      "hash": "9f60142dd94631800386a16a4ad70ad9e84cd78a",
       "force": true,
       "type": "addon"
     },
@@ -359,7 +389,7 @@
     },
     {
       "path": "mods/Not Enough Animations.jar",
-      "hash": "47099dc3b5c339ce918bd06523bae22f59c5c65a",
+      "hash": "f0638ee8456c4676c11b3f9a1eae7a48e0966800",
       "force": true,
       "type": "addon"
     },
@@ -394,8 +424,26 @@
       "type": "addon"
     },
     {
+      "path": "mods/Restore Chat Links.jar",
+      "hash": "042e44d710e633f03c96b8b98c58aad5220d772f",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "mods/Saturn.jar",
       "hash": "9ad0dbc95ca6bea2e55959a1f22376bdaf9c0c0e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Screenshot Viewer.jar",
+      "hash": "9247f2dc8ec0c7d7f855701d9d34fd248e82863a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Seamless Loading Screen.jar",
+      "hash": "fb03054d727573029b2dbf5e78bd187491b8931d",
       "force": true,
       "type": "addon"
     },
@@ -407,7 +455,7 @@
     },
     {
       "path": "mods/Smooth Boot (Reloaded).jar",
-      "hash": "53abe64226f6c7b1f03d02400f830a853259645d",
+      "hash": "3fd79132dba444bd109b5de4ad75dee06a48e130",
       "force": true,
       "type": "addon"
     },
@@ -419,7 +467,7 @@
     },
     {
       "path": "mods/TerraBlender.jar",
-      "hash": "9ba350cd273cffa515cedd21acfe76faa2f24b11",
+      "hash": "87040b6e14fd9f95c7409a67be00b8c601f14c7f",
       "force": true,
       "type": "addon"
     },
@@ -430,8 +478,20 @@
       "type": "addon"
     },
     {
+      "path": "mods/TexTrue\u0027s Embeddium Options.jar",
+      "hash": "4f4415a7d62acb14b61b05b39b6ec74a1e405d75",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "mods/Thirst Was Taken.jar",
       "hash": "562eca84e1fb81c2777e0d39d6477948342b5478",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Tiny Item Animations.jar",
+      "hash": "bd1eac323a351355d21ddf720fb0503020c77928",
       "force": true,
       "type": "addon"
     },
@@ -449,13 +509,13 @@
     },
     {
       "path": "mods/Xaero\u0027s Minimap.jar",
-      "hash": "f7b9642bb46b64756908cd4e631d1b5b878f1993",
+      "hash": "31fc6ee958ddd2fa174cd8d4787c49638cb3a98d",
       "force": true,
       "type": "addon"
     },
     {
       "path": "mods/Xaero\u0027s World Map.jar",
-      "hash": "a6d1b7020ac1e20c7ae335aa0ec56af232bb3a6b",
+      "hash": "72cc2206041cc05e8192e4ca2e9144229dd6ead3",
       "force": true,
       "type": "addon"
     },
