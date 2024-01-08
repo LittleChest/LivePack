@@ -1,0 +1,15 @@
+{
+  "badgeVisible": true,
+  "builtinServers": [
+    {
+      "name": "MCLive",
+      "address": "mc.mclive.org",
+      "forced": true
+    },
+    {
+      "name": "MCLive JP",
+      "address": "jp.mc.mclive.org",
+      "forced": true
+    }
+  ]
+}
