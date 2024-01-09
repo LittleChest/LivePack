@@ -1,18 +1,623 @@
 {
   "manifestType": "minecraftModpack",
-  "manifestVersion": 1,
+  "manifestVersion": 2,
   "name": "LivePack",
-  "version": "3.2.3",
+  "version": "3.2.4",
   "author": "LittleChest",
-  "overrides": "overrides",
-  "minecraft": {
-    "version": "1.20.1",
-    "modLoaders": [
-      {
-        "id": "forge-47.2.19",
-        "primary": true
-      }
-    ]
+  "description": "感谢使用 LivePack！\n请注意：不是所有的模组都支持加载，有些时候需要一些技巧和手段...",
+  "fileApi": "https://mclive.skinow.skin",
+  "url": "https://github.com/LittleChest/LivePack",
+  "forceUpdate": true,
+  "origin": [],
+  "addons": [
+    {
+      "id": "game",
+      "version": "1.20.1"
+    },
+    {
+      "id": "forge",
+      "version": "47.2.19"
+    }
+  ],
+  "libraries": [],
+  "files": [
+    {
+      "path": "config/builtinservers.json",
+      "hash": "893bd3ac0a970401fa40d4a9908205277cdd3a7b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/capes.json5",
+      "hash": "7289a8bc894f46edf164f411441cab19bfe72fab",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/itlt/icon.ico",
+      "hash": "342722455760ad99ed71708a967c277760decf42",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/itlt-client.toml",
+      "hash": "e5658079e9b9eb375b6cb1e66dedb8411f34b6bd",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/modernfix-mixins.properties",
+      "hash": "879bdc666a6046a51fa4b315d647eb98f90f06b9",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/modpack-update-checker/config.json",
+      "hash": "2d4d1afda72df4a99f5ac203e7fe4e74691687ee",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/modpack-update-checker-info.txt",
+      "hash": "d153c097ae4778dbe6b572910adf28f7e31d6bb1",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/3D Skin Layers.jar",
+      "hash": "7695d7f2eb892289f646f63398d115e10d84d78e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Advancement Plaques.jar",
+      "hash": "459bf06be69d28ebf522d22905019cba785978c9",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Alternate Current.jar",
+      "hash": "02def44a2c416459ee5daecbe1caa6d78571e205",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/AppleSkin.jar",
+      "hash": "81919356f84eab14258db98924b66c3c38e372b1",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Architectury API.jar",
+      "hash": "49fc332e52027845caaa0098289dc9059b8eb010",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Auth Me.jar",
+      "hash": "5e430805cf3dfd79fc5f0995f97604edac1491cd",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Auto Third Person.jar",
+      "hash": "0226ea563cd93e14b0628b3c5ad4e307e94b5636",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Axolotl Buckets.jar",
+      "hash": "b518d248c7c3dc1433a44a467e8d8fe8880cacb0",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Better Advancements.jar",
+      "hash": "84a6293b9b662c93aa30aa047436b6d8c19e5088",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Better Ping Display.jar",
+      "hash": "6347a5bff9405c59ec7d428e5e24115f5b17a90b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Better Recipe Book.jar",
+      "hash": "211dff34a3d187332ac35a135446926d2e06bd53",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Better Saved Hotbars.jar",
+      "hash": "3db4fa27b82280b23aad9aaf031c04859c91d5ce",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Better Statistics Screen.jar",
+      "hash": "1a1ea1872ea37d777cf18fa21c96a299b94a23f4",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Better Taskbar.jar",
+      "hash": "48c7fe07b32007bb985f541c438244821f775e79",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/BetterF3.jar",
+      "hash": "b65cba59e87dc6c6d1aa9c47f09b9996b4e5075d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Biomes O\u0027 Plenty.jar",
+      "hash": "c10ccda2a31e7ea9dbcb1db9688ee3d66bee25c8",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Builtin Servers.jar",
+      "hash": "9df9c9bb790d1ce578bc09265375fe65a86ca3c0",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Capes.jar",
+      "hash": "5444e301346383f6133189e66069e970d4a126fc",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Chat Heads.jar",
+      "hash": "10b989079285be6ece3c8f49b0eac7759d376da9",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/ChatWalk.jar",
+      "hash": "5a993e82a6672a6b3c54b85ed7711b90bdced9e2",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Clear Void.jar",
+      "hash": "13364f08d46fa97a633a24d192e42685d0695855",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Cloth Config API.jar",
+      "hash": "c46ca3fba95691873a765f4e79750c615f33e446",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Connector Extras.jar",
+      "hash": "8b1d1c4a2a0a50cdf788556e6fa4ee9c419a0d1a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Create.jar",
+      "hash": "3fee3c26ebbfdfd59e1371ab73ba1f61b44ef6d0",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Cuisine Delight.jar",
+      "hash": "52b341d4c8828a701d7094a53f30f3a53e61be74",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Cull Leaves.jar",
+      "hash": "bd9ec4468f8a114d3443a034c975e188dbe9f683",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Dyed.jar",
+      "hash": "d392495b0f95826c3db56600259af5e0200b4a52",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Dynamic Trim.jar",
+      "hash": "2881c2a58cc3d4402435df1fd79b621a6bc0611f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Embeddium Extra.jar",
+      "hash": "65b2c63050dda1554eae0c1ef91bb4e7c6c67b36",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Embeddium++.jar",
+      "hash": "a599be075a78e05216d9ff254b3574b996be6161",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Embeddium.jar",
+      "hash": "81800daa46a4089c5f30e4f6dde692bcaf66c473",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Entity Culling.jar",
+      "hash": "a184f3a963c07f7026fb6d8ccd83ca29e7f7b009",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Fabric Language Kotlin.jar",
+      "hash": "02e0af07d7c1476a6bd0530d0dacf0a2a9f8a8ea",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Farmer\u0027s Delight.jar",
+      "hash": "115fe7a8f0fcce534915f5e35f96017d602cebe2",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/fast-ip-ping.jar",
+      "hash": "d2ae47cc0e30f9dd354de6af5db0a65401dab631",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/FastQuit.jar",
+      "hash": "68f080925502a49027e231c63d3b94128ed6499b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/FerriteCore.jar",
+      "hash": "417fb6ce8f52abf40bd9d0390371790f9576f8ba",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Fog Looks Modern Now.jar",
+      "hash": "b2c177555b30b753682e40f973204b09ee27ffe5",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Forgified Fabric API.jar",
+      "hash": "6adf5d1d8772af54148b979408ccf105405fb3b3",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/FPS Reducer.jar",
+      "hash": "d7d5af20faa2bd7012aa2d34b5804324aa273092",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Framework.jar",
+      "hash": "39e5c1434226f4e9294ae1ed7ec1815fb92ede4b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Game Menu Remove GFARB.jar",
+      "hash": "122deb73346968f7a78cbe1e86e17759110c5cc6",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/GeckoLib.jar",
+      "hash": "16e0db2c73c0365e33d21a62bc4d08d9e40518b2",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Higher Chat.jar",
+      "hash": "bc5b61395ec7ffbaf65a324f06e198b40cd656f0",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Iceberg.jar",
+      "hash": "1d1b54b5a5b03c37f89ee6505198b6f50b63e853",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/IMBlocker.jar",
+      "hash": "3c0f0d4552b1efee8797afb600b830ddc7689d8f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/ImmediatelyFast.jar",
+      "hash": "86d778578752dfab703a6a68b1a562bca148be03",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Immersive Engineering.jar",
+      "hash": "a9fbb70fee4ad68d0f860e711c4bae524117525f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/It\u0027s The Little Things.jar",
+      "hash": "635087bd2d93b2650306a950e3cb1fe4b539fb1f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Jade Addons.jar",
+      "hash": "74b567a2b23bf34cd37ee4c02059318f8cc702d7",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Jade.jar",
+      "hash": "6a17415a34591168203b8ed6f334a349da55f797",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Just Enough Items.jar",
+      "hash": "a565f2e31fc2bbe6f297a4ca25241cbfd704ef6b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/JustEnoughCharacters.jar",
+      "hash": "0f5ba6b4e049e85551603972d293e58cc0524f47",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Macaw\u0027s Fences and Walls.jar",
+      "hash": "ac2fcd27bd5bd90ab9f5ba59e79ae04a7f053041",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Memory Leak Fix.jar",
+      "hash": "9f60142dd94631800386a16a4ad70ad9e84cd78a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/MidnightLib.jar",
+      "hash": "9c99369a5b703f428dc31f8e4a1a83fc892bba48",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Mighty Mail.jar",
+      "hash": "3ad93c66aae9c65b2a266640ca77634854c22358",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Model Gap Fix.jar",
+      "hash": "f11c4d7010f9572bd2e2ed64c15e544816226e0b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/ModernFix.jar",
+      "hash": "38446389264d82bc9ecb935c1d4dc96e76697477",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Modpack Update Checker.jar",
+      "hash": "48c3d285dbb197bd9a77d8114df50a815c0dd00b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/MrCrayfish\u0027s Furniture Mod.jar",
+      "hash": "66d0ac56f3f6f1efbd6ed7b3cb4a48824d0585c0",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Music Maker Mod.jar",
+      "hash": "3654b0c002a4159ebb10849606ed2c88072c7003",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/mutil.jar",
+      "hash": "a5030682cbbb003aa487763e7476643e0793d840",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Naturalist.jar",
+      "hash": "233106b2b15b2bbb27df6c78cc8369c0f89d4df7",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/No Realms Button.jar",
+      "hash": "6c51860f1788e8e75a413458d5a08b18a1e04f32",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/No Report Button.jar",
+      "hash": "d05c3ed9409e02cd5c0285bbcf54844505eccf37",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Not Enough Animations.jar",
+      "hash": "f0638ee8456c4676c11b3f9a1eae7a48e0966800",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Notes.jar",
+      "hash": "2aacb957a8d61c9272b7a059e00d11714b9f0719",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Oculus.jar",
+      "hash": "196539d0e5dc057b81edbaa8d0e396c6cd8a2db8",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Patchouli.jar",
+      "hash": "b6b7267f3669c10c167d5d375d0274d40e3eb756",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Radium.jar",
+      "hash": "717264dd8e1bc814714f63f1a158871c7cd21a2b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Remove Reloading Screen.jar",
+      "hash": "43e7cc853475eb4062096d6318da4cb83800d33e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Restore Chat Links.jar",
+      "hash": "042e44d710e633f03c96b8b98c58aad5220d772f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Saturn.jar",
+      "hash": "819e598edcf8c387600285abe7f6201861d695ac",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Screenshot Viewer.jar",
+      "hash": "9247f2dc8ec0c7d7f855701d9d34fd248e82863a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Seamless Loading Screen.jar",
+      "hash": "fb03054d727573029b2dbf5e78bd187491b8931d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Show Me Your Skin!.jar",
+      "hash": "af0412ad2209f8f551c0b9c40217ec0a237cda5f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Sinytra Connector.jar",
+      "hash": "8c5f38b5b0df222aea44a7d0e00012465df67a1b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Smooth Boot (Reloaded).jar",
+      "hash": "3fd79132dba444bd109b5de4ad75dee06a48e130",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Steam \u0027n\u0027 Rails.jar",
+      "hash": "ed3611b9a6e947d93a7fdfaf4d6d037c17f5ec6e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/TerraBlender.jar",
+      "hash": "87040b6e14fd9f95c7409a67be00b8c601f14c7f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/tetra.jar",
+      "hash": "e71797505f698a8b328f0b61edba2b09c4359328",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/TexTrue\u0027s Embeddium Options.jar",
+      "hash": "4f4415a7d62acb14b61b05b39b6ec74a1e405d75",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Thirst Was Taken.jar",
+      "hash": "562eca84e1fb81c2777e0d39d6477948342b5478",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Tiny Item Animations.jar",
+      "hash": "bd1eac323a351355d21ddf720fb0503020c77928",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Tom\u0027s Simple Storage Mod.jar",
+      "hash": "abcd33998c1baec7e429c705bdbdf9d3c9b377e7",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Touhou Little Maid.jar",
+      "hash": "c0772dcc5ced5b09b0446793359881cf278fbf22",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Xaero\u0027s Minimap.jar",
+      "hash": "f7b9642bb46b64756908cd4e631d1b5b878f1993",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Xaero\u0027s World Map.jar",
+      "hash": "a6d1b7020ac1e20c7ae335aa0ec56af232bb3a6b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "options.txt",
+      "hash": "8bb316c6b986575333a5e7137ceb2eb26ecf28ce",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "resourcepacks/Xaero地图汉化.zip",
+      "hash": "e5d70811088b886ef422a9d0b8fe9508fe111799",
+      "force": true,
+      "type": "addon"
+    }
+  ],
+  "settings": {
+    "install_mods": true,
+    "install_resourcepack": true
   },
-  "files": []
+  "launchInfo": {
+    "minMemory": 700,
+    "supportJava":[17,18,19,20,21],
+    "launchArgument": [],
+    "javaArgument": []
+  }
 }

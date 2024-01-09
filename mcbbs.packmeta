@@ -2,7 +2,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 2,
   "name": "LivePack",
-  "version": "3.2.3",
+  "version": "3.2.4",
   "author": "LittleChest",
   "description": "感谢使用 LivePack！\n请注意：不是所有的模组都支持加载，有些时候需要一些技巧和手段...",
   "fileApi": "https://mclive.skinow.skin",
@@ -28,6 +28,12 @@
       "type": "addon"
     },
     {
+      "path": "config/capes.json5",
+      "hash": "7289a8bc894f46edf164f411441cab19bfe72fab",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "config/itlt/icon.ico",
       "hash": "342722455760ad99ed71708a967c277760decf42",
       "force": true,
@@ -35,19 +41,19 @@
     },
     {
       "path": "config/itlt-client.toml",
-      "hash": "cfbccb2f0274f74a53130a922bc177f549a1b772",
+      "hash": "e5658079e9b9eb375b6cb1e66dedb8411f34b6bd",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/modernfix-mixins.properties",
-      "hash": "eae9d31c0e1c656134abea556cef223beb98383b",
+      "hash": "879bdc666a6046a51fa4b315d647eb98f90f06b9",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/modpack-update-checker/config.json",
-      "hash": "c2eaf072047e4eb5870899ad9df5cc5472361f17",
+      "hash": "2d4d1afda72df4a99f5ac203e7fe4e74691687ee",
       "force": true,
       "type": "addon"
     },
@@ -58,8 +64,14 @@
       "type": "addon"
     },
     {
+      "path": "mods/3D Skin Layers.jar",
+      "hash": "7695d7f2eb892289f646f63398d115e10d84d78e",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "mods/Advancement Plaques.jar",
-      "hash": "cf95c38fd083e5c3012b733b247f400fafb66447",
+      "hash": "459bf06be69d28ebf522d22905019cba785978c9",
       "force": true,
       "type": "addon"
     },
@@ -82,8 +94,20 @@
       "type": "addon"
     },
     {
+      "path": "mods/Auth Me.jar",
+      "hash": "5e430805cf3dfd79fc5f0995f97604edac1491cd",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "mods/Auto Third Person.jar",
       "hash": "0226ea563cd93e14b0628b3c5ad4e307e94b5636",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Axolotl Buckets.jar",
+      "hash": "b518d248c7c3dc1433a44a467e8d8fe8880cacb0",
       "force": true,
       "type": "addon"
     },
@@ -102,6 +126,12 @@
     {
       "path": "mods/Better Recipe Book.jar",
       "hash": "211dff34a3d187332ac35a135446926d2e06bd53",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Better Saved Hotbars.jar",
+      "hash": "3db4fa27b82280b23aad9aaf031c04859c91d5ce",
       "force": true,
       "type": "addon"
     },
@@ -136,6 +166,24 @@
       "type": "addon"
     },
     {
+      "path": "mods/Capes.jar",
+      "hash": "5444e301346383f6133189e66069e970d4a126fc",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Chat Heads.jar",
+      "hash": "10b989079285be6ece3c8f49b0eac7759d376da9",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/ChatWalk.jar",
+      "hash": "5a993e82a6672a6b3c54b85ed7711b90bdced9e2",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "mods/Clear Void.jar",
       "hash": "13364f08d46fa97a633a24d192e42685d0695855",
       "force": true,
@@ -161,13 +209,25 @@
     },
     {
       "path": "mods/Cuisine Delight.jar",
-      "hash": "34744cc269546c95eda5ef92da191f63cdb4a7c2",
+      "hash": "52b341d4c8828a701d7094a53f30f3a53e61be74",
       "force": true,
       "type": "addon"
     },
     {
       "path": "mods/Cull Leaves.jar",
       "hash": "bd9ec4468f8a114d3443a034c975e188dbe9f683",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Dyed.jar",
+      "hash": "d392495b0f95826c3db56600259af5e0200b4a52",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Dynamic Trim.jar",
+      "hash": "2881c2a58cc3d4402435df1fd79b621a6bc0611f",
       "force": true,
       "type": "addon"
     },
@@ -192,6 +252,12 @@
     {
       "path": "mods/Entity Culling.jar",
       "hash": "a184f3a963c07f7026fb6d8ccd83ca29e7f7b009",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Fabric Language Kotlin.jar",
+      "hash": "02e0af07d7c1476a6bd0530d0dacf0a2a9f8a8ea",
       "force": true,
       "type": "addon"
     },
@@ -252,6 +318,12 @@
     {
       "path": "mods/GeckoLib.jar",
       "hash": "16e0db2c73c0365e33d21a62bc4d08d9e40518b2",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Higher Chat.jar",
+      "hash": "bc5b61395ec7ffbaf65a324f06e198b40cd656f0",
       "force": true,
       "type": "addon"
     },
@@ -431,7 +503,7 @@
     },
     {
       "path": "mods/Saturn.jar",
-      "hash": "9ad0dbc95ca6bea2e55959a1f22376bdaf9c0c0e",
+      "hash": "819e598edcf8c387600285abe7f6201861d695ac",
       "force": true,
       "type": "addon"
     },
@@ -444,6 +516,12 @@
     {
       "path": "mods/Seamless Loading Screen.jar",
       "hash": "fb03054d727573029b2dbf5e78bd187491b8931d",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Show Me Your Skin!.jar",
+      "hash": "af0412ad2209f8f551c0b9c40217ec0a237cda5f",
       "force": true,
       "type": "addon"
     },
@@ -509,13 +587,13 @@
     },
     {
       "path": "mods/Xaero\u0027s Minimap.jar",
-      "hash": "31fc6ee958ddd2fa174cd8d4787c49638cb3a98d",
+      "hash": "f7b9642bb46b64756908cd4e631d1b5b878f1993",
       "force": true,
       "type": "addon"
     },
     {
       "path": "mods/Xaero\u0027s World Map.jar",
-      "hash": "72cc2206041cc05e8192e4ca2e9144229dd6ead3",
+      "hash": "a6d1b7020ac1e20c7ae335aa0ec56af232bb3a6b",
       "force": true,
       "type": "addon"
     },
