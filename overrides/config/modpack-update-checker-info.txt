@@ -1,3 +1,4 @@
-欢迎使用 MCLive！
+欢迎使用 LivePack！
 
-要升级整合包，请解压缩离线（Offline）整合包文件，并将 overrides 文件夹中的mods文件复制到游戏运行目录（若提示覆盖，请选择 全部覆盖）。
+此模组包在 GitHub 上存储，欢迎点个 Star！
+https://github.com/LittleChest/LivePack

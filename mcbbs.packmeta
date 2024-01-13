@@ -2,9 +2,9 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 2,
   "name": "LivePack",
-  "version": "3.2.4",
+  "version": "3.3",
   "author": "LittleChest",
-  "description": "感谢使用 LivePack！\n请注意：不是所有的模组都支持加载，有些时候需要一些技巧和手段...",
+  "description": "欢迎使用 LivePack！\n请注意：不是所有的模组都支持加载，有些时候需要一些技巧和手段...",
   "fileApi": "https://mclive.skinow.skin",
   "url": "https://github.com/LittleChest/LivePack",
   "forceUpdate": true,
@@ -41,7 +41,7 @@
     },
     {
       "path": "config/itlt-client.toml",
-      "hash": "e5658079e9b9eb375b6cb1e66dedb8411f34b6bd",
+      "hash": "d41edb1c835f0f53cd13a436459d43cb3fcf79bf",
       "force": true,
       "type": "addon"
     },
@@ -53,13 +53,13 @@
     },
     {
       "path": "config/modpack-update-checker/config.json",
-      "hash": "2d4d1afda72df4a99f5ac203e7fe4e74691687ee",
+      "hash": "c4aec9847b6dc5eff9dea55766463a29be95eb3d",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/modpack-update-checker-info.txt",
-      "hash": "d153c097ae4778dbe6b572910adf28f7e31d6bb1",
+      "hash": "dbc35e50a3ee78d4e26f8baceea624746a1af7c2",
       "force": true,
       "type": "addon"
     },
@@ -84,6 +84,12 @@
     {
       "path": "mods/AppleSkin.jar",
       "hash": "81919356f84eab14258db98924b66c3c38e372b1",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Applied Energistics 2.jar",
+      "hash": "7d89677fc032742033b06b652d385b19cee87b50",
       "force": true,
       "type": "addon"
     },
@@ -388,6 +394,12 @@
       "type": "addon"
     },
     {
+      "path": "mods/MCLIVE的新年.jar",
+      "hash": "90aec2352fb86e3d33431943d2ef806566969a77",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "mods/Memory Leak Fix.jar",
       "hash": "9f60142dd94631800386a16a4ad70ad9e84cd78a",
       "force": true,
@@ -419,7 +431,7 @@
     },
     {
       "path": "mods/Modpack Update Checker.jar",
-      "hash": "48c3d285dbb197bd9a77d8114df50a815c0dd00b",
+      "hash": "851b05e7c6ba44a93967dce6072d4ed2b3fe2cc7",
       "force": true,
       "type": "addon"
     },
@@ -526,6 +538,12 @@
       "type": "addon"
     },
     {
+      "path": "mods/Simple Planes.jar",
+      "hash": "864f0ad4a9a27a362af359e983a253b2d67fb1c4",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "mods/Sinytra Connector.jar",
       "hash": "8c5f38b5b0df222aea44a7d0e00012465df67a1b",
       "force": true,
@@ -540,6 +558,12 @@
     {
       "path": "mods/Steam \u0027n\u0027 Rails.jar",
       "hash": "ed3611b9a6e947d93a7fdfaf4d6d037c17f5ec6e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/Storage Drawers.jar",
+      "hash": "91aa0aeb3f868ca39b43b63c9eb596346c77fe26",
       "force": true,
       "type": "addon"
     },
